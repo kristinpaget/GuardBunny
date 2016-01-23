@@ -6,19 +6,24 @@
 
 In this repository:
 
-- Eagle Files
+- Eagle Files:
+
 Schematic, PCB layout, and library for the counter chip.  Built with Eagle for Mac 7.5.0.
 
 - Logo
+
 GuardBunny logo design
 
 - Manufacturing
+
 Gerber files (including Excellon drill data), Bill of Materials, component placement co-ordinates.
 
 - Presentation
+
 The slides.  Link to follow to video of the talk.
 
 - schematic.png
+
 Exactly what it says on the tin :D
 
 
