@@ -1,0 +1,54 @@
+<html>
+<body>
+<center>
+<h1>
+GuardBunny v2d6 (DEF CON handout edition) Assembly Instructions</h1>
+(Yes, I know my HTML sucks.  Bite me :P)
+</center>
+<br>
+<br>
+<br>
+This picture actually tells you everything you need to know (larger version <a href="GB_v2d6_layout.png">here</a>):<br>
+<br>
+<img src="GB_v2d6_layout.png"><br>
+<br>
+Within your Bag of Bunny Bits(TM) there are many unlabelled components.  Some are easy to recognise:<br>
+<br>
+- IC1 (TSSOP-16 package)<br>
+- IC2 (SOT23-5 package)<br>
+<br>
+The other parts are almost all 0603; identify them by how many you have (each kit also includes spares for several of the parts):<br>
+<br>
+- 1x tuning cap (C5)<br>
+- 2x zero-ohm resistors (R1,R2)<br>
+- 3x LEDs (you should have picked the color - you only need two)<br>
+- 5x tank capacitors (You need 4 - C1-C4)<br>
+- 8x diodes (you need 6 - D1-D6)<br>
+<br>
+<br>
+Assuming you know how to solder SMD, there's only a few things you need to watch out for:<br>
+<br>
+- Make sure the circle on IC1 is aligned with the diagram.<br>
+- IC2 will only fit one way.<br>
+- None of the capacitors are polarized - install in either direction.<br>
+- <b>Watch the polarity on all the diodes!</b>  In the diagram the thicker end denotes the cathode, which should also be marked by a line on the top of the package.<br>
+- LEDs have their anodes at the bottom and cathodes at the top.  Current flows upwards!  If you can't work out the device polarity (some of the packages are weird) install them in opposite directions and then switch the one that doesn't work - it shouldn't harm anything.<br>
+- The zero-ohm resistors can be replaced with more LEDs, but I wouldn't recommend it with any color other than red or green (other colors require higher voltages, which the chips may not like). If you lose a zero-ohm, replace with a tiny bit of wire or a large blob of solder.<br>
+- If you choose, you can leave out IC1, IC2, D5 and D6.  This will make guardbunny ineffective as a shield (it won't generate a jamming signal) but instead it will become a VERY efficient RFID field detector, with LEDs lighting up at considerable distance from the reader and getting quite bright at close range.<br>
+<br>
+<br>
+If you DON'T know how to solder SMD, a few tips:<br>
+<br>
+- Flux <b>everything</b>.<br>
+- Start by tinning a SINGLE pad.  Manipulate the component with tweezers until it's aligned, then reheat the pad you tinned and let it grab the part.  Reheat as needed to correct the placement, then solder the rest of the pads.<br>
+- IC1 is often easiest to solder by covering it in flux, building up a good blob of solder on the tip of an iron, then dragging it across the pins.  There's kind of a knack to it, be prepared to spend a lot of time getting rid of bridges between pins.<br>
+- If you have a Flex PCB (2/3rds of the boards I'm giving out are Flex) then keep your iron cool and use small, deliberate movements.  It's easy to scorch the board with too much heat, but it shouldn't affect how well it works.  Try not to pull any pads off!<br>
+- Take your time!  Hurried SMD is usually bad SMD.<br>
+- Some components are more heat-sensitive than others.  The diodes and LEDs can be easy to kill if overheated; IC1 and IC2 on the other hand will take a surprising amount of abuse.  Caps are usually pretty robust, too.<br>
+<br>
+<br>
+Kristin is planning to spend much of DEF CON in the Hardware Hacking Village, so if you hit problems during con then either find her at HHV or email <a href="mailto:DC25GB@tombom.co.uk">DC25GB@tombom.co.uk</a> and she'll help if she can.<br>
+<br>
+HAPPY HACKING! :)
+</body>
+</html>
